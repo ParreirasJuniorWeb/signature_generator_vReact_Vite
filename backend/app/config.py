@@ -23,7 +23,7 @@ class Config:
     DEBUG = os.getenv('DEBUG', 'False').lower() == 'true'
     
     # CORS
-    CORS_ORIGINS = os.getenv('CORS_ORIGINS', 'http://localhost:5173').split(',')
+    CORS_ORIGINS = os.getenv('CORS_ORIGINS', 'https://signature-generator-v-react-vite-n4.vercel.app/').split(',')
     
     # Logging
     LOG_LEVEL = os.getenv('LOG_LEVEL', 'INFO')
